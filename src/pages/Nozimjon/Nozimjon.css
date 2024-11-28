@@ -1,9 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
+::selection {
+    background: white;
+    color: #69afbb;
+}
+body {
+    background-color: black;
+}
 * {
+    transition: 0.5s;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", serif;
+}
+
+main {
+    width: 100%;
+    height: 700px;
+    background-image: url('./img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hidden-gradient {
+    background: linear-gradient(90deg, rgb(42, 35, 35), transparent 80%);
+}
+.modern-a {
+    color: gray;
+}
+.modern-a:hover {
+    color: white;
+    word-spacing: 10px;
+}
+.space {
+    margin-left: 4px;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* flex */
 
@@ -70,6 +70,7 @@
 /* text */
 
 .cyber { font-family: "Chakra Petch", sans-serif; }
+.cursiv { font-family: "Pacifico", cursive; }
 
 .text-12 { font-size: 12px; }
 .text-16 { font-size: 16px; }
@@ -115,6 +116,31 @@
 .textn-cyber-3 { text-shadow: 0 0 10px #69afbb; }
 .textn-cyber-4 { text-shadow: 0 0 10px #20576b; }
 .textn-cyber-5 { text-shadow: 0 0 10px #103748; }
+
+.textc-cyber-1h:hover { color: #d1f9f8; }
+.textc-cyber-2h:hover { color: #9af3ff; }
+.textc-cyber-3h:hover { color: #69afbb; }
+.textc-cyber-4h:hover { color: #20576b; }
+.textc-cyber-5h:hover { color: #103748; }
+.textn-cyber-1h:hover { text-shadow: 0 0 10px #d1f9f8; }
+.textn-cyber-2h:hover { text-shadow: 0 0 10px #9af3ff; }
+.textn-cyber-3h:hover { text-shadow: 0 0 10px #69afbb; }
+.textn-cyber-4h:hover { text-shadow: 0 0 10px #20576b; }
+.textn-cyber-5h:hover { text-shadow: 0 0 10px #103748; }
+
+.text-white { color: white; }
+.text-black { color: black; }
+.text-red { color: red; }
+.text-green { color: green; }
+.text-blue { color: blue; }
+.text-yellow { color: yellow; }
+.text-purple { color: purple; }
+.text-orange { color: orange; }
+.text-pink { color: pink; }
+.text-gray { color: gray; }
+.text-brown { color: brown; }
+.text-cyan { color: cyan; }
+
 
 /* block */
 
