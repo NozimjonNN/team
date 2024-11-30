@@ -115,7 +115,7 @@ export default function Nozimjon() {
                             <ul>
                                 <li><Link to='/'>Nozimjon</Link></li>
                                 <li><Link to=''>Farruh</Link></li>
-                                <li><Link to=''>Asadbek</Link></li>
+                                <li><Link to='/asad'>Asadbek</Link></li>
                                 <li><Link to=''>Ruxsora</Link></li>
                                 <li><Link to=''>Sunnatbek</Link></li>
                                 <li><Link to=''>Diyorbek</Link></li>
