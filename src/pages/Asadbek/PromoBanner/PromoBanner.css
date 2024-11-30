@@ -1,0 +1,16 @@
+.promo-banner {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .shop-now {
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
