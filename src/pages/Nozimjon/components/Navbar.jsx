@@ -7,7 +7,7 @@ export default function Navbar() {
         <>
             <nav>
                 <div className='flex aic gap-10'>
-                    <img src={ logo } alt="logo" />
+                    <img src={ logo } className='nav-img' alt="logo" />
                     <p className="cyber textc-cyber-1 textn-cyber-1 text-36 textw-700">CYBER</p>
                 </div>
                 <ul>
