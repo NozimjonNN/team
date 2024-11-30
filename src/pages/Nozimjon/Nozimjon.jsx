@@ -26,6 +26,44 @@ export default function Nozimjon() {
                     </div>
                 </div>
             </main>
+            <main className='main-3'>
+                <div className='hidden-gradient w-100 h-100 p-100'>
+                    <div className="w-50">
+                        <h1 className='text-white text-52'>Who always  <span className='cursiv text-60 textc-cyber-2 textn-cyber-2'>build</span> our offices?</h1><br />
+                        <p className='text-white'>For many years, the construction of our offices has been handled by our very own building company, a team renowned for their expertise and commitment to excellence. Their craftsmanship and attention to detail consistently result in exceptional outcomes, ensuring that every project meets the highest standards. This company has been an invaluable partner, providing us with their unmatched skills and knowledge. In return, we’ve always stood by them, offering our full support and resources to help them thrive. Together, we’ve built a relationship founded on trust, collaboration, and a shared dedication to success.</p><br />
+                        <Link className='modern-a' to="">Learn<spam className="space"></spam>more →</Link>
+                    </div>
+                </div>
+            </main>
+            <div className="black-zone cont-100 text-white">
+                <h1 className="cyber text-36 textc-cyber-2">Our guarantee</h1><br /><br />
+                <div className="card-cont">
+                    <div className="card-flex">
+                        <div className="card">
+                            <div className="card-image card-img-1"></div>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                        <div className="card">
+                            <div className="card-image card-img-1"></div>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div className="card-flex">
+                        <div className="card">
+                            <div className="card-image card-img-1"></div>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                        <div className="card">
+                            <div className="card-image card-img-1"></div>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

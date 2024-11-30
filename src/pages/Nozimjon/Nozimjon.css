@@ -27,6 +27,10 @@ main {
     height: 700px;
     background-image: url('./img/about-bg.jpg');
 }
+.main-3 {
+    height: 700px;
+    background-image: url('./img/offices.jpg');
+}
 
 .hidden-gradient {
     background: linear-gradient(90deg, rgb(42, 35, 35), transparent 80%);
@@ -45,4 +49,8 @@ main {
 }
 .space {
     margin-left: 4px;
+}
+.black-zone {
+    background-color: black;
+    height: 1000px;
 }
