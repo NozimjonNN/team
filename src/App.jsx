@@ -9,7 +9,7 @@ export default function App() {
     <Routes>
       <Route path='/' element={<Nozimjon />} />
       <Route path='/asad' element={<Asad />} />
-      <Route path='/ruxsora' element={<Asad />} />
+      <Route path='/ruxsora' element={<Ruxsora />} />
     </Routes>
   )
 }
