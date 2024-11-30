@@ -1,0 +1,18 @@
+.imgTwo{
+    transition: transform 0.3s ease;
+    width: 500px ;
+    border-radius:20px;
+}
+.imgTwo:hover{
+    transform: scale(1.1);
+
+}
+.imgThree{
+    transition: transform 0.3s ease;
+    width: 500px ;
+    border-radius:20px;
+}
+.imgThree:hover{
+    transform: scale(0.9);
+
+}

@@ -1,0 +1,6 @@
+.cardCom{
+    transition: transform 0.5s ease;
+}
+.cardCom:hover{
+    transform: scale(1.1);
+}

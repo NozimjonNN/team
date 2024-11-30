@@ -1,0 +1,43 @@
+.text {
+    position: relative;
+     font-size: 24px;
+     font-weight: bold;
+     cursor: pointer;
+   }
+   
+   .text::after {
+     content: '';
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     width: 0;
+     height: 2px;
+     background: black;
+     transition: 0.3s ease;
+     transform: translateX(-50%);
+   }
+   
+   .text:hover::after {
+     width: 100%;
+     left: 0;
+   }
+ 
+ 
+   a{
+     text-decoration: none;
+     color: black;
+   }
+   .Logo{
+     transition: transform 0.5s ease;
+ }
+ .Logo:hover{
+     transform: scale(0.9);
+ 
+ }
+ .text1{
+   transition: transform 0.5s ease;
+ }
+ .text1:hover{
+   transform: scale(0.9);
+ 
+ }
