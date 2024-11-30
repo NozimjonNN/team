@@ -4,6 +4,7 @@ import React from "react";
     return(
      <> 
      <h1>salom</h1>
+     <h2>hayr</h2>
      
      </>
     )
