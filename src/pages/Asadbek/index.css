@@ -1,0 +1,50 @@
+/* Секция продуктов */
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Отступ между рядами */
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .product-row {
+    display: flex;
+    justify-content: space-between; /* Разделить карточки равномерно */
+    gap: 20px; /* Отступ между карточками */
+  }
+  
+  .product-card {
+    flex: 1; /* Равномерное распределение ширины карточек */
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .product-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .product-card button {
+    padding: 10px 15px;
+    background-color: #ff6347;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px); /* Небольшая анимация при наведении */
+  }
+  

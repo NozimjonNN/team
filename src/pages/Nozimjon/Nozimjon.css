@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+::-webkit-scrollbar { display: none; }
+::selection {
+    background: white;
+    color: #69afbb;
+}
+* {
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+main {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.main-1 {
+    height: 700px;
+    background-image: url('./img/bg.jpg');
+}
+.main-2 {
+    height: 700px;
+    background-image: url('./img/about-bg.jpg');
+}
+.main-3 {
+    height: 700px;
+    background-image: url('./img/offices.jpg');
+}
+
+.hidden-gradient {
+    background: linear-gradient(90deg, rgb(42, 35, 35), transparent 80%);
+}
+.hidden-bg {
+    background-color: rgba(42, 35, 35, 0.3);
+}
+
+.modern-a {
+    color: gray;
+    text-decoration: none;
+}
+.modern-a:hover {
+    color: white;
+    word-spacing: 10px;
+}
+.space {
+    margin-left: 4px;
+}
+.black-zone {
+    background-color: black;
+    height: 1200px;
+}
+.blue-zone {
+    background-color: #69afbb;
+}
+
+.card-img-1 {
+    background-image: url(./img/card-1.jpg);
+}
+.card-img-2 {
+    background-image: url(./img/card-2.jpg);
+}
+.card-img-3 {
+    background-image: url(./img/card-3.jpg);
+}
+.card-img-4 {
+    background-image: url(./img/card-4.jpg);
+}
+.media {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+}
+
+.black-zone-modern {
+    background-color: black;
+}
+.green-zone {
+    background-color: #4CAF50;
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+}
+.footer-a {
+    color: white;
+    font-size: 25px ;
+}
+.a-1:hover {
+    color: cyan;
+}
+.a-2:hover {
+    background: linear-gradient(to right, #F58529, #FEDA77, #DD2A7B, #8134AF);
+    -webkit-background-clip: text;
+    color: transparent;
+    /* background-color: #8134AF; */
+}
+.a-3:hover {
+    color: red;
+}
+.a-4:hover {
+    color: yellow;
+}
+
+footer ul {
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+footer a:hover {
+    opacity: 1;
+}
